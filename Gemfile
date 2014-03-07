@@ -14,7 +14,6 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'less-rails'
 
 gem 'font-awesome-rails'
 
@@ -24,6 +23,7 @@ group :development do
   gem 'hub', :require=>nil
   gem 'quiet_assets'
 end
+
 gem 'bootstrap-sass'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
