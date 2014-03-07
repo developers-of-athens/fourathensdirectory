@@ -6,8 +6,7 @@ class CreateContacts < ActiveRecord::Migration
       t.string :company_name
       t.integer :parent_company_id
       t.string :phone_number
-      t.boolea :allows_text
-      t.string :n
+      t.boolean :allows_text, :default => true
       t.string :email
       t.string :url
       t.text :description

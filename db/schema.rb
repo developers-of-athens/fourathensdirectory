@@ -11,7 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140307225135) do
+ActiveRecord::Schema.define(version: 20140307225318) do
+
+  create_table "contacts", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "company_name"
+    t.integer  "parent_company_id"
+    t.string   "phone_number"
+    t.boolean  "allows_text",       default: true
+    t.string   "email"
+    t.string   "url"
+    t.text     "description"
+    t.boolean  "is_main"
+    t.integer  "office_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "contacts", ["office_id"], name: "index_contacts_on_office_id"
 
   create_table "offices", force: true do |t|
     t.string   "suite_number"
