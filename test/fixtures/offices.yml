@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: offices
+#
+#  id           :integer          not null, primary key
+#  suite_number :string(255)
+#  x_coord      :integer
+#  y_coord      :integer
+#  created_at   :datetime
+#  updated_at   :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  suite_number: MyString
+  x_coord: 1
+  y_coord: 1
+
+two:
+  suite_number: MyString
+  x_coord: 1
+  y_coord: 1
