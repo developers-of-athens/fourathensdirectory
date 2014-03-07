@@ -49,3 +49,5 @@ gem 'figaro'
 
 # Easy gravatar images
 gem 'gravatar_image_tag'
+
+gem 'activeadmin', github: 'gregbell/active_admin'
