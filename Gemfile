@@ -32,14 +32,20 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+# App server
+gem 'thin'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+# Model annotation
+gem 'annotate'
 
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
+# Model search
+gem 'ransack'
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+# Twilio Integration
+gem 'twilio-ruby'
+
+# Environment variable management
+gem 'figaro'
+
+# Easy gravatar images
+gem 'gravatar_image_tag'
