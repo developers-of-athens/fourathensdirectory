@@ -17,6 +17,7 @@ gem 'therubyracer', '>= 0.9.9'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails'
 
