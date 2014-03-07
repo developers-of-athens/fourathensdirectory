@@ -32,5 +32,20 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# App server
 gem 'thin'
+
+# Model annotation
 gem 'annotate'
+
+# Model search
+gem 'ransack'
+
+# Twilio Integration
+gem 'twilio-ruby'
+
+# Environment variable management
+gem 'figaro'
+
+# Easy gravatar images
+gem 'gravatar_image_tag'
