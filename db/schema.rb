@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140308011008) do
+ActiveRecord::Schema.define(version: 20140308011922) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -57,10 +57,8 @@ ActiveRecord::Schema.define(version: 20140308011008) do
   create_table "contacts", force: true do |t|
     t.string   "first_name"
     t.string   "last_name"
-    t.string   "company_name"
-    t.integer  "parent_company_id"
     t.string   "phone_number"
-    t.boolean  "allows_text",       default: true
+    t.boolean  "allows_text",  default: true
     t.string   "email"
     t.string   "url"
     t.text     "description"
