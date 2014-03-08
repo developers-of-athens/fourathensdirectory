@@ -18,5 +18,5 @@
 //= require angular-animate
 //= require angular-resource
 //= require routes
-//= require_tree .
+//= require_tree  ./controller
 
