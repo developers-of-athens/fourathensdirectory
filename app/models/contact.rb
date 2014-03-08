@@ -16,10 +16,13 @@
 #  office_id         :integer
 #  created_at        :datetime
 #  updated_at        :datetime
+#  company_id        :integer
 #
 
 class Contact < ActiveRecord::Base
 
   belongs_to :office
+
+  belongs_to :company
 
 end

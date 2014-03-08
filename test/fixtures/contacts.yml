@@ -16,6 +16,7 @@
 #  office_id         :integer
 #  created_at        :datetime
 #  updated_at        :datetime
+#  company_id        :integer
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
