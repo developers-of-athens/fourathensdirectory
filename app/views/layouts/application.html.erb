@@ -38,16 +38,19 @@
   </head>
   <body ng-app="dir">
     <div class="container-fluid" ng-controller='rootController'>
-      <div class="row-fluid">
-        <div class="span12">
-		  <div ng-view></div> 
-          <%= yield %>
-        </div>
+      <div class="row">
+        <div ng-view></div> 
+        <%= yield %>
       </div><!--/row-->
-
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
+      
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <footer>
+            <p class="text-center">&copy; FourAthens 2014</p>
+          </footer>
+        </div>
+      </div>
+      
 
     </div> <!-- /container -->
 
