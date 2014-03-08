@@ -22,8 +22,4 @@ class Contact < ActiveRecord::Base
 
   belongs_to :office
 
-  belongs_to :company, :class_name => 'Contact'
-
-  has_many :contacts, :class_name => 'Contact', :foreign_key => 'parent_company_id'
-
 end
