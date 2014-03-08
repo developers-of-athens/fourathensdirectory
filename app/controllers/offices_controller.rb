@@ -6,6 +6,7 @@ class OfficesController < ApplicationController
   # GET /offices.json
   def index
     @offices = Office.all
+    render :json => @offices
   end
 
   # GET /offices/1.json
