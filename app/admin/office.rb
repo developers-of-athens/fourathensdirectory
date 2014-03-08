@@ -1,5 +1,6 @@
 ActiveAdmin.register Office do
 
+  permit_params :suite_number, :x_coord, :y_coord
   
   # See permitted parameters documentation:
   # https://github.com/gregbell/active_admin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
