@@ -11,6 +11,7 @@ Fourathensdirectory::Application.routes.draw do
 
   resources :contacts, :only => [:index, :show]
   resources :offices, :only => [:index, :show]
+  resources :companies, :only => [:index, :show]
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
