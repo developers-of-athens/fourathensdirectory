@@ -9,6 +9,10 @@ Fourathensdirectory::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  resources :contacts, :only => [:index, :show]
+  resources :offices, :only => [:index, :show]
+  resources :companies, :only => [:index, :show]
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
