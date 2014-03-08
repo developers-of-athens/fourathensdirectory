@@ -1,11 +1,10 @@
-ActiveAdmin.register Office do
+ActiveAdmin.register Company do
 
-  permit_params :suite_number, :x_coord, :y_coord
   
   # See permitted parameters documentation:
   # https://github.com/gregbell/active_admin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
-  # permit_params :list, :of, :attributes, :on, :model
+  permit_params :name, :description, :phone_number
   #
   # or
   #
