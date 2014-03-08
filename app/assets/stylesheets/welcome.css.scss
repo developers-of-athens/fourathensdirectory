@@ -22,7 +22,31 @@ body {
 
 .landing-logo {
   width: 40%;
-	margin-left: 30%;
+  margin-left: 30%;
   margin-right: 30%;
-	margin-top: 5%;
+  margin-top: 5%;
+}
+
+.image_holder{
+  margin-top:35px;
+  width:476.7px;
+  height:836.8px;
+  display:inline;
+  background: url('/assets/FAD_mainlayout.jpg');
+  background-size: 476.7px 836.8px;
+}
+
+.layout_image{
+  margin-top:25px;
+  width:inherit;
+}
+
+.circle_holder{
+ }
+
+.circle{
+  width:55px;
+  height:55px;
+  border-radius:55px;
+  border:5px solid #3199ba;
 }
