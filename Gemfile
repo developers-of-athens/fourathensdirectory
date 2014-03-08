@@ -12,15 +12,20 @@ gem 'sass-rails', '~> 4.0.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'therubyracer', '>= 0.9.9'
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-gem 'less-rails'
-gem 'twitter-bootstrap-rails'
+
 gem 'font-awesome-rails'
 gem 'angularjs-rails'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+end
+
+gem 'bootstrap-sass'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -50,3 +55,5 @@ gem 'figaro'
 
 # Easy gravatar images
 gem 'gravatar_image_tag'
+
+gem 'activeadmin', github: 'gregbell/active_admin'

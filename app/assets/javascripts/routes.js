@@ -2,6 +2,7 @@ var dir = angular.module('dir', ['ngRoute']);
 
 dir.config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
+	//template: "<h1>Hello</h1>",
 	templateUrl: 'templates/landing',
 	controller: 'landingController'
   })
@@ -9,11 +10,9 @@ dir.config(['$routeProvider', function($routeProvider) {
 	templateUrl: 'templates/directory',
 	controller: 'directoryController'
   })
-  .when('/map', {
-	templateUrl: 'templates/map',
-	controller: 'mapController'
-  })
-  .otherwise({
-	redirectTo: '/'
+  .when('/profile/', {
+	templateUrl: 'templates/profile',
+	controller: 'profileController'
   });
 }]);
+
