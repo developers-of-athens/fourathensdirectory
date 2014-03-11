@@ -10,7 +10,7 @@ dir.config(['$routeProvider', function($routeProvider) {
 	templateUrl: 'templates/directory',
 	controller: 'directoryController'
   })
-  .when('/profile/', {
+  .when('/profile/:id', {
 	templateUrl: 'templates/profile',
 	controller: 'profileController'
   });

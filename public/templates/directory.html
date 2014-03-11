@@ -2,7 +2,7 @@
   <h1 class="text-center">{{messages.title}}</h1>
   <ul class="list-unstyled">
 		<li ng-repeat="contact in contacts">
-			<h3>{{contact.last_name}}, {{contact.first_name}}</h3>
+			<a href="/#/profile/{{contact.id}}"><h3>{{contact.last_name}}, {{contact.first_name}}</h3></a>
 			<h5>Email: {{contact.email}}</h5>
 			<h5>Phone: {{contact.phone_number}}</h5>
 		</li>

@@ -12,6 +12,7 @@ class ContactsController < ApplicationController
   # GET /contacts/1
   # GET /contacts/1.json
   def show
+    render :json => @contact
   end
 
   private
